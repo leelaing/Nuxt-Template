@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-template",
+  "version": "1.0.0",
+  "description": "Nuxtjs Starter Template Setup for firebase and nosql",
+  "author": "Lee Laing &lt;leelaing@big2tiny.com&gt;",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@firebase/app-types": "^0.3.7",
+    "@firebase/util": "^0.2.11",
+    "@nuxtjs/axios": "^5.3.6",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "firebase": "^5.9.3",
+    "nuxt": "^2.4.0",
+    "vue": "^2.6.10",
+    "vue-currency-filter": "^3.4.1",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify": "^1.5.5",
+    "vuetify-loader": "^1.2.1",
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}
