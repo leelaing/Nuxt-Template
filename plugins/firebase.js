@@ -1,6 +1,9 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/database';
+import Vuefire from 'vuefire'
+
+Vue.use(Vuefire)
 
 if (!firebase.apps.length) {
   const config = {
