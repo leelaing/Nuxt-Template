@@ -23,7 +23,14 @@ module.exports = {
       }
     ]
   },
-
+  env: {
+    API_KEY: 'AIzaSyDZXaU_ng1zOu_HDyCJFc2CvriTzfSdv0I',
+    AUTH_DOMAIN: 'big2tiny-38f5a.firebaseapp.com',
+    DATABASE_URL: 'https://big2tiny-38f5a.firebaseio.com',
+    PROJECT_ID: 'big2tiny-38f5a',
+    STORAGE_BUCKET: 'big2tiny-38f5a.appspot.com',
+    MESSAGING_SENDER_ID: '709284831928'
+  },
   /*
   ** Customize the progress-bar color
   */
